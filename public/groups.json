@@ -878,6 +878,18 @@
       ]
     },
     {
+      "name": "Naginata",
+      "id": "Naginata",
+      "files": [
+        {
+          "path": "json/japanese_naginata.json"
+        },
+        {
+          "path": "json/japanese_naginata_v12.json"
+        }
+      ]
+    },
+    {
       "name": "Others",
       "id": "others",
       "files": [

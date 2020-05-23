@@ -2,7 +2,7 @@
   "title": "Japanese NAGINATA STYLE (v12)",
   "rules": [
     {
-      "description": "Japanese NAGINATA STYLE (v12) Default(Vertical) Build 1590222189 ",
+      "description": "Japanese NAGINATA STYLE (v12) Default(Vertical) Build 1590242581 ",
       "manipulators": [
         {
           "type": "basic",
@@ -377,7 +377,7 @@
           "to": [
             {
               "mouse_key": {
-                "horizontal_wheel": -1
+                "horizontal_wheel": -32
               }
             }
           ],
@@ -425,7 +425,7 @@
           "to": [
             {
               "mouse_key": {
-                "horizontal_wheel": 1
+                "horizontal_wheel": 32
               }
             }
           ],
@@ -4006,7 +4006,7 @@
           "from": {
             "simultaneous": [
               {
-                "key_code": "s"
+                "key_code": "w"
               },
               {
                 "key_code": "j"
@@ -4171,7 +4171,7 @@
           "from": {
             "simultaneous": [
               {
-                "key_code": "x"
+                "key_code": "s"
               },
               {
                 "key_code": "j"
@@ -4226,7 +4226,7 @@
           "from": {
             "simultaneous": [
               {
-                "key_code": "s"
+                "key_code": "w"
               },
               {
                 "key_code": "j"
@@ -4391,7 +4391,7 @@
           "from": {
             "simultaneous": [
               {
-                "key_code": "x"
+                "key_code": "s"
               },
               {
                 "key_code": "j"
@@ -4446,7 +4446,7 @@
           "from": {
             "simultaneous": [
               {
-                "key_code": "s"
+                "key_code": "w"
               },
               {
                 "key_code": "j"
@@ -4611,7 +4611,7 @@
           "from": {
             "simultaneous": [
               {
-                "key_code": "x"
+                "key_code": "s"
               },
               {
                 "key_code": "j"
@@ -4831,7 +4831,7 @@
           "from": {
             "simultaneous": [
               {
-                "key_code": "s"
+                "key_code": "w"
               },
               {
                 "key_code": "m"
@@ -4886,7 +4886,7 @@
           "from": {
             "simultaneous": [
               {
-                "key_code": "s"
+                "key_code": "w"
               },
               {
                 "key_code": "m"
@@ -4941,7 +4941,7 @@
           "from": {
             "simultaneous": [
               {
-                "key_code": "s"
+                "key_code": "w"
               },
               {
                 "key_code": "m"
@@ -5161,7 +5161,7 @@
           "from": {
             "simultaneous": [
               {
-                "key_code": "x"
+                "key_code": "s"
               },
               {
                 "key_code": "j"
@@ -5216,7 +5216,7 @@
           "from": {
             "simultaneous": [
               {
-                "key_code": "x"
+                "key_code": "s"
               },
               {
                 "key_code": "j"
@@ -6332,7 +6332,7 @@
                 "key_code": "q"
               },
               {
-                "key_code": "semicolon"
+                "key_code": "h"
               }
             ]
           },
@@ -6384,7 +6384,7 @@
                 "key_code": "q"
               },
               {
-                "key_code": "o"
+                "key_code": "p"
               }
             ]
           },
@@ -6488,7 +6488,7 @@
                 "key_code": "q"
               },
               {
-                "key_code": "h"
+                "key_code": "l"
               }
             ]
           },
@@ -6729,7 +6729,7 @@
           "from": {
             "simultaneous": [
               {
-                "key_code": "l"
+                "key_code": "semicolon"
               },
               {
                 "key_code": "f"
@@ -6873,7 +6873,7 @@
           "from": {
             "simultaneous": [
               {
-                "key_code": "s"
+                "key_code": "w"
               },
               {
                 "key_code": "j"
@@ -7065,7 +7065,7 @@
           "from": {
             "simultaneous": [
               {
-                "key_code": "c"
+                "key_code": "x"
               },
               {
                 "key_code": "j"
@@ -7305,7 +7305,7 @@
           "from": {
             "simultaneous": [
               {
-                "key_code": "x"
+                "key_code": "s"
               },
               {
                 "key_code": "j"
@@ -7353,7 +7353,7 @@
           "from": {
             "simultaneous": [
               {
-                "key_code": "w"
+                "key_code": "c"
               },
               {
                 "key_code": "j"
@@ -13688,47 +13688,6 @@
               "type": "variable_if",
               "name": "shifted",
               "value": 1
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "q"
-          },
-          "to": [
-            {
-              "key_code": "v",
-              "repeat": false
-            },
-            {
-              "key_code": "u",
-              "repeat": false
-            }
-          ],
-          "conditions": [
-            {
-              "type": "input_source_if",
-              "input_sources": [
-                {
-                  "input_mode_id": "com.apple.inputmethod.Japanese"
-                },
-                {
-                  "input_mode_id": "com.apple.inputmethod.Japanese.Hiragana"
-                },
-                {
-                  "input_mode_id": "com.apple.inputmethod.Japanese.Katakana"
-                },
-                {
-                  "input_mode_id": "com.apple.inputmethod.Japanese.HalfWidthKana"
-                }
-              ]
-            },
-            {
-              "type": "frontmost_application_unless",
-              "bundle_identifiers": [
-                "^com\\.apple\\.loginwindow$"
-              ]
             }
           ]
         },
