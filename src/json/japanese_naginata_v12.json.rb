@@ -686,7 +686,7 @@ def main
           # 左手半濁音
           two_keys('z','m','ぽ'),
           two_keys('x','m','ぴ'),
-          two_keys('w','m','ぱ'),
+          two_keys('c','m','ぱ'),
           # 拗音シフト やゆよと同時押しで、ゃゅょが付く
           two_keys('w','h','きゃ'),
           two_keys('e','h','りゃ'),
