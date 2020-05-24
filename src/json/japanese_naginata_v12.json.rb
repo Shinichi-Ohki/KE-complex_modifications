@@ -629,9 +629,9 @@ def main
           three_keys('s','j','i','びょ'),
           three_keys('s','j','p','びゅ'),
           # 半濁音ゃゅょは「ぴ」のみ
-          three_keys('x','m','i','ぴょ'),
-          three_keys('x','m','h','ぴゃ'),
-          three_keys('x','m','p','ぴゅ'),
+          three_keys('s','m','i','ぴょ'),
+          three_keys('s','m','h','ぴゃ'),
+          three_keys('s','m','p','ぴゅ'),
           three_keys('e','j','p','でゅ'),
           three_keys('r','j','o','じぇ'),
           three_keys('g','j','o','ぢぇ'),
@@ -685,7 +685,7 @@ def main
           two_keys(PERIOD,'v','ぷ'),
           # 左手半濁音
           two_keys('z','m','ぽ'),
-          two_keys('x','m','ぴ'),
+          two_keys('s','m','ぴ'),
           two_keys('c','m','ぱ'),
           # 拗音シフト やゆよと同時押しで、ゃゅょが付く
           two_keys('w','h','きゃ'),
