@@ -2,7 +2,7 @@
   "title": "Japanese NAGINATA STYLE (v12)",
   "rules": [
     {
-      "description": "Japanese NAGINATA STYLE (v12) Default(Vertical) Build 1590338458 ",
+      "description": "Japanese NAGINATA STYLE (v12) Default(Vertical) Build 1590603364 ",
       "manipulators": [
         {
           "type": "basic",
@@ -6873,6 +6873,54 @@
           "from": {
             "simultaneous": [
               {
+                "key_code": "l"
+              },
+              {
+                "key_code": "f"
+              }
+            ]
+          },
+          "to": [
+            {
+              "key_code": "v",
+              "repeat": false
+            },
+            {
+              "key_code": "u",
+              "repeat": false
+            }
+          ],
+          "conditions": [
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "input_mode_id": "com.apple.inputmethod.Japanese"
+                },
+                {
+                  "input_mode_id": "com.apple.inputmethod.Japanese.Hiragana"
+                },
+                {
+                  "input_mode_id": "com.apple.inputmethod.Japanese.Katakana"
+                },
+                {
+                  "input_mode_id": "com.apple.inputmethod.Japanese.HalfWidthKana"
+                }
+              ]
+            },
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.loginwindow$"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
                 "key_code": "w"
               },
               {
@@ -9817,7 +9865,10 @@
           "from": {
             "simultaneous": [
               {
-                "key_code": "q"
+                "key_code": "f"
+              },
+              {
+                "key_code": "l"
               },
               {
                 "key_code": "o"
@@ -9865,7 +9916,10 @@
           "from": {
             "simultaneous": [
               {
-                "key_code": "q"
+                "key_code": "f"
+              },
+              {
+                "key_code": "l"
               },
               {
                 "key_code": "j"
@@ -9913,7 +9967,10 @@
           "from": {
             "simultaneous": [
               {
-                "key_code": "q"
+                "key_code": "f"
+              },
+              {
+                "key_code": "l"
               },
               {
                 "key_code": "k"
@@ -9961,7 +10018,10 @@
           "from": {
             "simultaneous": [
               {
-                "key_code": "q"
+                "key_code": "f"
+              },
+              {
+                "key_code": "l"
               },
               {
                 "key_code": "n"
@@ -10009,7 +10069,10 @@
           "from": {
             "simultaneous": [
               {
-                "key_code": "q"
+                "key_code": "f"
+              },
+              {
+                "key_code": "l"
               },
               {
                 "key_code": "p"
@@ -10782,54 +10845,6 @@
           "to": [
             {
               "key_code": "p",
-              "repeat": false
-            },
-            {
-              "key_code": "e",
-              "repeat": false
-            }
-          ],
-          "conditions": [
-            {
-              "type": "input_source_if",
-              "input_sources": [
-                {
-                  "input_mode_id": "com.apple.inputmethod.Japanese"
-                },
-                {
-                  "input_mode_id": "com.apple.inputmethod.Japanese.Hiragana"
-                },
-                {
-                  "input_mode_id": "com.apple.inputmethod.Japanese.Katakana"
-                },
-                {
-                  "input_mode_id": "com.apple.inputmethod.Japanese.HalfWidthKana"
-                }
-              ]
-            },
-            {
-              "type": "frontmost_application_unless",
-              "bundle_identifiers": [
-                "^com\\.apple\\.loginwindow$"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "simultaneous": [
-              {
-                "key_code": "q"
-              },
-              {
-                "key_code": "t"
-              }
-            ]
-          },
-          "to": [
-            {
-              "key_code": "v",
               "repeat": false
             },
             {

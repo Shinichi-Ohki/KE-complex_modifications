@@ -504,10 +504,10 @@ ROMAN_MAP = {
 def main
   now = Time.now.to_i
   puts JSON.pretty_generate(
-    'title' => 'Japanese NAGINATA STYLE (v12)',
+    'title' => 'Japanese NAGINATA STYLE (v12) auxin',
     'rules' => [
       {
-        'description' => "Japanese NAGINATA STYLE (v12) #{MODE}#{TYKEYMODE}Build #{now} ",
+        'description' => "Japanese NAGINATA STYLE (v12)  auxin #{MODE}#{TYKEYMODE}Build #{now} ",
         'manipulators' => [
           # 同時打鍵数の多いものから書く
           shiftkeydef(),#連続シフト用定義
@@ -645,6 +645,14 @@ def main
           #Mac版のみの拡張
           three_keys('r','j','t','じぇ'),
           three_keys('g','j','t','ぢぇ'),
+          # 外来音
+          three_keys('f','l','o','ヴぇ'),
+          three_keys('f','l','j','ヴぁ'),
+          three_keys('f','l','k','ヴぃ'),
+          three_keys('f','l','n','ヴぉ'),
+          three_keys('f','l','p','ヴゅ'),
+          #auxin独自拡張
+          three_keys('f','l',SEMICOLON,'ヴぇ'),
           # ------------------------------
           # 2同時打鍵
           # 小書き： シフト半濁音同時押し
@@ -666,6 +674,7 @@ def main
           two_keys(SEMICOLON,'f','づ'),
           two_keys('n','f','だ'),
           two_keys(PERIOD,'f','ぶ'),
+          two_keys('l','f','ヴ'),
           # 左手濁点
           two_keys('w','j','ぎ'),
           two_keys('e','j','で'),
@@ -729,11 +738,6 @@ def main
           # 外来音
           two_keys('e','k','てぃ'),
           two_keys('d','l','とぅ'),
-          two_keys('q','o','ヴぇ'),
-          two_keys('q','j','ヴぁ'),
-          two_keys('q','k','ヴぃ'),
-          two_keys('q','n','ヴぉ'),
-          two_keys('q','p','ヴゅ'),
           # 右手領域の同時押し外来音
           two_keys('l','j','うぁ'),
           two_keys('l','k','うぃ'),
@@ -754,10 +758,12 @@ def main
           two_keys('y','f','べ'),
           two_keys('y','v','ぺ'),
           two_keys('q','t','ヴぇ'),
-          two_keys('l','t','うぇ'),
+          #two_keys('l','t','うぇ'),
           two_keys(PERIOD,'t','ふぇ'),
           two_keys('r','t','しぇ'),
           two_keys('g','t','ちぇ'),
+          #auxin独自拡張
+          two_keys('l',SEMICOLON,'うぇ'),
           # ------------------------------
           # シフト(スペースキー)
           #shift_key('q', ''),

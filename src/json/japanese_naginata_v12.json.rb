@@ -666,6 +666,7 @@ def main
           two_keys(SEMICOLON,'f','づ'),
           two_keys('n','f','だ'),
           two_keys(PERIOD,'f','ぶ'),
+          two_keys('l','f','ヴ'),
           # 左手濁点
           two_keys('w','j','ぎ'),
           two_keys('e','j','で'),
@@ -729,11 +730,11 @@ def main
           # 外来音
           two_keys('e','k','てぃ'),
           two_keys('d','l','とぅ'),
-          two_keys('q','o','ヴぇ'),
-          two_keys('q','j','ヴぁ'),
-          two_keys('q','k','ヴぃ'),
-          two_keys('q','n','ヴぉ'),
-          two_keys('q','p','ヴゅ'),
+          three_keys('f','l','o','ヴぇ'),
+          three_keys('f','l','j','ヴぁ'),
+          three_keys('f','l','k','ヴぃ'),
+          three_keys('f','l','n','ヴぉ'),
+          three_keys('f','l','p','ヴゅ'),
           # 右手領域の同時押し外来音
           two_keys('l','j','うぁ'),
           two_keys('l','k','うぃ'),
@@ -753,7 +754,7 @@ def main
           #Mac版のみの拡張
           two_keys('y','f','べ'),
           two_keys('y','v','ぺ'),
-          two_keys('q','t','ヴぇ'),
+          #two_keys('q','t','ヴぇ'),
           two_keys('l','t','うぇ'),
           two_keys(PERIOD,'t','ふぇ'),
           two_keys('r','t','しぇ'),
