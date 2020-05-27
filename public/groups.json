@@ -886,6 +886,9 @@
         },
         {
           "path": "json/japanese_naginata_v12.json"
+        },
+        {
+          "path": "json/japanese_naginata_v12_auxin.json"
         }
       ]
     },
